@@ -1,6 +1,6 @@
 .places__inner {
     margin: 0 auto;
-    max-width: 1184px;
+    max-width: 984px;
 }
 
 @media screen and (max-width:1200px) {
