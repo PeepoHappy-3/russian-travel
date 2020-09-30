@@ -1,0 +1,26 @@
+.places__heading {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1.09;
+    margin: 0;
+    text-align: start;
+}
+
+@media screen and (max-width:860px) {
+    .places__heading {
+        font-size: 42px;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .places__heading {
+        padding: 0 0 0 16px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .places__heading {
+        font-size: 32px;
+    }
+}

@@ -1,3 +1,21 @@
 .container_width_s {
     max-width: 984px;
 }
+
+@media screen and (max-width:1024px) {
+    .container_width_s {
+        padding: 0 48px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .container_width_s {
+        padding: 0 24px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .container_width_s {
+        padding: 0 16px;
+    }
+}

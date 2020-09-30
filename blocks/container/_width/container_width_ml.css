@@ -1,0 +1,9 @@
+.container_width_ml {
+    max-width: 1184px;
+}
+
+@media screen and (min-width:1024px) {
+    .container_width_ml {
+        padding: 0 48px;
+    }
+}

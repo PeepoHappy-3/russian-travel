@@ -2,8 +2,31 @@
     font-style: normal;
     font-weight: 900;
     font-size: 96px;
-    line-height: 100px;
+    line-height: 1.04;
     text-align: center;
     margin: 0 auto 32px;
     max-width: 720px;
+    text-rendering: optimizeLegibility;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:767px) {
+    .lead__title {
+        font-size: 72px;
+        padding: 0 24px;
+    }
+}
+
+@media screen and (max-width:530px) {
+    .lead__title {
+        font-size: 48px;
+        padding: 0 16px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .lead__title {
+        font-size: 40px;
+        margin: 0 auto 16px;
+    }
 }

@@ -1,0 +1,22 @@
+.places__inner {
+    margin: 0 auto;
+    max-width: 1184px;
+}
+
+@media screen and (max-width:1200px) {
+    .places__inner {
+        padding: 0 48px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .places__inner {
+        padding: 0 24px;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .places__inner {
+        padding: 0;
+    }
+}

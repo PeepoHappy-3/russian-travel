@@ -1,0 +1,22 @@
+.photo__inner {
+    max-width: 1184px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:1024px) {
+    .photo__inner {
+        padding: 0 48px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .photo__inner {
+        padding: 0 24px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .photo__inner {
+        padding: 0 16px;
+    }
+}

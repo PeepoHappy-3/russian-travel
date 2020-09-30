@@ -1,0 +1,11 @@
+.places__link-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width:700px) {
+    .places__link-block {
+        display: none;
+    }
+}

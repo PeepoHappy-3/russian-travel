@@ -1,0 +1,21 @@
+.container_width_m {
+    max-width: 1184px;
+}
+
+@media screen and (max-width:1024px) {
+    .container_width_m {
+        padding: 0 48px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .container_width_m {
+        padding: 0 24px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .container_width_m {
+        padding: 0 16px;
+    }
+}

@@ -2,3 +2,15 @@
     margin: 0 auto;
     max-width: 984px;
 }
+
+@media screen and (min-width:1024px) {
+    .lead__inner {
+        padding: 0 48px;
+    }
+}
+
+@media screen and (min-width:767px) {
+    .lead__inner {
+        padding: 0;
+    }
+}
