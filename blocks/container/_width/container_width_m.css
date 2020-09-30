@@ -14,7 +14,7 @@
     }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:500px) {
     .container_width_m {
         padding: 0 16px;
     }
