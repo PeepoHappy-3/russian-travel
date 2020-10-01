@@ -3,13 +3,13 @@
     max-width: 984px;
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (max-width:1024px) {
     .lead__inner {
         padding: 0 48px;
     }
 }
 
-@media screen and (min-width:767px) {
+@media screen and (max-width:768px) {
     .lead__inner {
         padding: 0;
     }

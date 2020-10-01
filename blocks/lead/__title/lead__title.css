@@ -6,18 +6,22 @@
     text-align: center;
     margin: 0 auto 32px;
     max-width: 720px;
-    text-rendering: optimizeLegibility;
     box-sizing: border-box;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:768px) {
     .lead__title {
-        font-size: 72px;
         padding: 0 24px;
     }
 }
 
-@media screen and (max-width:530px) {
+@media screen and (max-width:700px) {
+    .lead__title {
+        font-size: 76px;
+    }
+}
+
+@media screen and (max-width:560px) {
     .lead__title {
         font-size: 48px;
         padding: 0 16px;

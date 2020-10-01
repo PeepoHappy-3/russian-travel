@@ -1,5 +1,8 @@
 .container_width_m {
     max-width: 1184px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 @media screen and (max-width:1024px) {
@@ -8,7 +11,7 @@
     }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:768px) {
     .container_width_m {
         padding: 0 24px;
     }

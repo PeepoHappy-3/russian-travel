@@ -4,6 +4,7 @@
     background-size: cover;
     width: 176px;
     height: 52px;
+    align-self: center;
 }
 
 @media screen and (max-width:500px) {

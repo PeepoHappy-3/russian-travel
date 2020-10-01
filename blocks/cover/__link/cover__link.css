@@ -1,9 +1,35 @@
 .cover__link {
+    display: block;
     text-decoration: none;
     color: #ffffff;
+    padding: 245px 0;
+    text-align: center;
+    position: relative;
+    background-image: url(../../../images/cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .cover__link:hover .cover__overlay {
     opacity: 0.8;
     background-color: #2f2f2f;
+}
+
+@media screen and (max-width:1024px) {
+    .cover__link {
+        padding: 195px 0;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .cover__link {
+        padding: 115px 0;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .cover__link {
+        padding: 33px 0;
+    }
 }
