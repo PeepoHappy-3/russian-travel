@@ -12,8 +12,9 @@
 }
 
 .cover__link:hover .cover__overlay {
-    opacity: 0.8;
     background-color: #2f2f2f;
+    opacity: 0.8;
+    transition: all .3s ease-in;
 }
 
 @media screen and (max-width:1024px) {
